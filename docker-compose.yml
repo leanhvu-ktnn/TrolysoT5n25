@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  trolyso:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GROQ_LLAMA=${GROQ_LLAMA}
+    stdin_open: true
+    tty: true 

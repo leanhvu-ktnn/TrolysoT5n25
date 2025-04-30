@@ -1,0 +1,17 @@
+include README.md
+include LICENSE
+include requirements.txt
+include .env.example
+include pyproject.toml
+include setup.py
+
+recursive-include tests *.py
+recursive-include app *.py
+recursive-include components *.py
+recursive-include config *.py
+
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude Thumbs.db 
