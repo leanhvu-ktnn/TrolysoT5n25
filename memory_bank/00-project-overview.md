@@ -18,6 +18,9 @@ Dự án phát triển hệ thống AI assistant với khả năng tương tác 
 - SQLite (Cơ sở dữ liệu)
 - Pydantic (Validation và serialization)
 - Rich (CLI formatting)
+- MCP Documentation (Model Context Protocol)
+  - [MCP Servers](https://github.com/modelcontextprotocol/servers)
+  - [MCP Core](https://github.com/modelcontextprotocol)
 
 ## Cấu trúc thư mục
 - memory_bank: Chứa toàn bộ thông tin về tài liệu của hệ thống
